@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Bikes/Contact</title>
+    <link rel="icon" href="images-website1\title icon.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg shadow bg-light navbar-light sticky-top">
+        <div class="container">
+            <a href="#/" class="navbar-brand">
+                <img src="images-website1/navbar logo.avif" alt="error 404" class="rounded-circle"
+                    style="width:60px;border:none;">
+            </a>
+            <span style="font-size: 15px;letter-spacing: 3px; margin-left: 0px;" class="urbanbikes ms-2">
+                URBAN BIKES
+            </span>
+            <!------------------------------------------------------------ Menu Button ------------------------------------------------------------------------------->
+            <button type="button" class="navbar-toggler" data-bs-target="#thetarget" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="thetarget">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link me-4 texts ">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-link me-4 texts"> SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link me-4 texts"> BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link me-4 texts"> FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link me-4 texts"> CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link me-4 texts"> MEMBERS</a>
+                    </li>
+                </ul>
+                <div class="nav-item d-flex align-items-baseline me-0">
+                    <a class="nav-link text-dark" href="loginpage.html" target="_blank">
+                        <i class="fa fa-user-circle" style="font-size: 23px;"></i>
+                        <span style="font-size: 18px;">Log In</span>
+                    </a>
+                </div>
+                <div class="nav-item cart-icon-container " style="background-color: rgb(9, 9, 42);">
+                    <a href="#" class="nav-link text-light">
+                        <i class="fas fa-shopping-cart fa-2x text-warning"></i>
+                        <p class="cart-caption">MY CART</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------------------------------------------------body------------------------------------------------------------- -->
+    <main>
+        <div class="contact">
+            <p>CONTACT US</p>
+        </div>
+        <div class="container divide">
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="locationheading">OUR STORE</p>
+                <address>00,Avinashi Road<br>Hopes Junction,CBE-641004<br></address>
+                <p>edureka@gmail.com &nbsp;| &nbsp;Tel.&nbsp;+91-999-999-9999</p>
+                <p><span style="color:#b99867">View map</span> &nbsp;>(see below)</p>
+            </div>
+            <div class="time">
+                <i class="fa-solid fa-clock"></i>
+                <p class="locationheading">OPENING HOURS</p>
+                <p>Monday - Friday: 11.00 - 18.30</p>
+                <p>Saturday: 11.00 - 17.00</p>
+                <p>Sunday: 12.30 - 16.30</p>
+            </div>
+        </div>
+        <div class="bgcontainer">
+            <p class="bgbluelabel" style="text-align: center;padding-top: 3%;">You can also email us at:
+                edureka@gmail.com or fill in our contact form:</p>
+            <div class="bgblue">
+                <div class="inpuut">
+                    <form action="POST" class="form1">
+                        <div class="input-group">
+                            <input type="text" id="name" class="input-group_input" required>
+                            <label for="name" class="input-group_label">Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" class="input-group_input" required>
+                            <label for="email" class="input-group_label">Email</label>
+                        </div>
+
+                    </form>
+                </div>
+                <aside class="textaree">
+                    <form action="POST" class="form2">
+                        <div class="input-group">
+                            <input type="comments" id="comment" class="input-group_input" required>
+                            <label for="comment" class="input-group_label">Subject</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="review" id="rating" class="input-group_input" required>
+                            <label for="rating" class="input-group_label">Message</label>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+            <div class="buttonalign">
+                <button type="submit" class="btn button">Submit</button>
+            </div>
+        </div>
+        <div class="bgmap">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25342.386801236633!2d77.03585077398925!3d11.01708801525272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8577ae9781155%3A0x963889f184b7c8d2!2sEdureka%20Learning%20Center%20-%20Peelamedu%2C%20Coimbatore!5e0!3m2!1sen!2sin!4v1695241159930!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="socialmedia">
+            <div class="socmed">
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <div class="socmed">
+                <a href="">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+            <div class="socmed">
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="socmed">
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+            <div class="socmed">
+                <a href="">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <form action="POST" class="form-group">
+                    <label for="input" class="form-label text-light">SUBSCRIBE FOR UPDATES</label>
+                    <input type="email" id="input" class="form-control" placeholder="Enter your email here*" required>
+                </form>
+                <button type="submit" class="btn footersubmitbtn">Submit</button>
+            </div>
+            <div class="copyright">
+                <p>&copy;2023 Loremipsum urban cycle. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

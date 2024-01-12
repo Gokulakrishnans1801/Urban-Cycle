@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    max-height:100%;
+    width:100%;
+}
+
+/*---------------------------------------------------------- navbar of the webpage -------------------------------------------------------------------------*/
+.sticky-top {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.urbanbikes {
+  color: #b99867;
+}
+
+nav > a > .text-warning {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  /* .texts{ */
+  color: #b99867;
+}
+
+/* ----------------------------------------------------------------body-------------------------------------------------------------------- */
+
+.loginbg{
+    margin-top: 7%;
+    max-width:100%;
+    height:88vh;
+    background-image: url(./images-website1/backgroundfixed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px);
+}   

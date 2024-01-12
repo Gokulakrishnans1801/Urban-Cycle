@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height:100vh;
+    width:100%;
+}
+
+/* ----------------------------------------------------------------nav bar---------------------------------------------------------------------------------------- */
+.sticky-top {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.urbanbikes {
+  color: #b99867;
+}
+
+nav > a > .text-warning {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  /* .texts{ */
+  color: #b99867;
+}
+
+
+/* ---------------------------------------------------------------content-------------------------------------------------------------------------------------------- */
+
+.ourcollection{
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 5px;
+  color:#b99867;
+  margin: 10% 0% 2% 0%;
+}
+main .container{
+  width:100vmin;
+  height:65vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+  width:30%;
+  height:45%;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+.card:hover{
+  height:100%;
+  width:33%;
+  background-color: #b99867;
+}
+.rupee i{
+  color:black;
+  font-size: 15px;
+}
+@media(max-width:768px){
+  .ourcollection{
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin:20% 0% 5% 0%;
+  }
+  main .container{
+  width:100vmin;
+  height:100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  .card{
+    width:48%;
+    height:30%;
+  }
+  .card:hover{
+    width: 48%;
+    height: 61%;
+  }
+}
+@media(max-width:992px){
+  .ourcollection{
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin:20% 0% 5% 0%;
+  }
+}
+@media(max-width:850px){
+  .ourcollection{
+    margin:12% 0% 5% 0%;
+  }
+}
+@media(max-width:1199px){
+  .ourcollection{
+    margin:22% 0% 5% 0%;
+  }
+}
+/* --------------footer-------------- */
+.socialmedia {
+  width: 100%;
+  background-color: #b99867;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+i {
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+.socmed {
+  padding: 2% 1% 2% 1%;
+}
+@media (max-width: 768px) {
+  i {
+    font-size: 35px;
+  }
+  .socmed {
+    padding: 3% 4% 3% 4%;
+  }
+}
+@media (max-width: 992px) {
+  i {
+    font-size: 43px;
+  }
+  .socmed {
+    padding: 4% 2% 4% 2%;
+  }
+}
+
+.footer {
+  height: auto;
+  width: 100%;
+  background-color: rgb(9, 9, 42);
+}
+
+.footer-content {
+  margin-left: 27%;
+  padding-top: 6%;
+}
+
+.footer div input {
+  background-color: transparent;
+  width: 65%;
+  border: 2px solid whitesmoke;
+  margin-top: 0.7%;
+}
+
+.footer div input::placeholder {
+  color: whitesmoke;
+}
+
+.footersubmitbtn {
+  width: 65%;
+  border: 2px solid #b99867;
+  background-color: whitesmoke;
+  margin-top: 0.5%;
+}
+
+.footersubmitbtn:hover {
+  background-color: #b99867;
+}
+
+.footer .copyright {
+  color: whitesmoke;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    margin-left: 5%;
+    padding-top: 4%;
+  }
+  .footer div input {
+    width: 95%;
+  }
+  .footersubmitbtn {
+    width: 95%;
+    margin-top: 2%;
+  }
+  .footer .copyright p {
+    font-size: 10px;
+    margin-top: 3%;
+    padding-bottom: 3%;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-content {
+    margin-left: 10%;
+    padding-top: 6%;
+  }
+  .footer div input {
+    width: 87%;
+  }
+  .footersubmitbtn {
+    width: 87%;
+    margin-top: 2%;
+  }
+  .footer .copyright {
+    margin-top: 4%;
+    padding-bottom: 4%;
+  }
+}
